@@ -1,4 +1,4 @@
-const int sensorPin = 2;  // Pino conectado à saída do sensor
+const int sensorPin = 5;  // Pino conectado à saída do sensor
 int sensorState = 0;      // Variável para armazenar o estado do sensor
 
 void setup() {

@@ -1,4 +1,13 @@
-const int sensorPin = 2;  // Pino do sensor
+const int sensorPin = 3;  // Pino do sensor
+//o sensorPin pode ser alterado para qualquer um dos pinos digitais do Arduino Mega que suportem interrupções externas
+/*
+Pino 2 → digitalPinToInterrupt(2)
+Pino 3 → digitalPinToInterrupt(3)
+Pino 18 → digitalPinToInterrupt(18)
+Pino 19 → digitalPinToInterrupt(19)
+Pino 20 → digitalPinToInterrupt(20)
+Pino 21 → digitalPinToInterrupt(21)
+*/
 volatile int pulseCount = 0;  // Contador de pulsos
 unsigned long lastTime = 0;  // Último tempo medido
 float speed = 0.0;  // Velocidade em m/s
